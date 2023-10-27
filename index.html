@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./Countries-rest-API/css/styles.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/431bc804af.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Countries Api</title>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="logo">Where in the world?</div>
+      <div class="mode">
+        <div class="light-btn">
+          <i class="fa-regular fa-moon"></i>
+        </div>
+        <div class="dark-btn">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+        <p>Dark Mode</p>
+      </div>
+    </header>
+    <main class="page">
+      <div class="section">
+        <div class="search-box element">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input
+            type="search"
+            class="input"
+            placeholder="Search for a country..."
+          />
+        </div>
+        <!-- dropDown -->
+        <div class="region-filter">
+          <div class="drop-down element">
+            <h5>Filter by region</h5>
+            <button class="filter-btn">
+              <i class="fa-solid fa-caret-down"></i>
+            </button>
+          </div>
+          <div class="dropdown-details element">
+            <a class="link">All</a>
+            <a class="link">Africa</a>
+            <a class="link">America</a>
+            <a class="link">Asia</a>
+            <a class="link">Europe</a>
+            <a class="link">Oceania</a>
+          </div>
+        </div>
+      </div>
+      <!-- countries -->
+      <section class="countries">
+        <!-- single country -->
+        <a href="single-country.html" class="single-country element">
+          <div class="flag">
+            <img src="./germany.png" class="img" alt="" />
+          </div>
+          <div class="title">
+            <h4>Germany</h4>
+            <div class="details">
+              <p><span>population:</span> 81,770,900</p>
+              <p><span>region:</span> Europe</p>
+              <p><span>capital:</span> Berlin</p>
+            </div>
+          </div>
+        </a>
+        <!-- end of single country -->
+        <!-- single country -->
+        <a href="single-country.html" class="single-country element">
+          <div class="flag">
+            <img src="./germany.png" class="img" alt="" />
+          </div>
+          <div class="title">
+            <h4>United State of America</h4>
+            <div class="details">
+              <p><span>population:</span>81,770,900</p>
+              <p><span>region:</span>Americas</p>
+              <p><span>capital:</span>Washington, D.C</p>
+            </div>
+          </div>
+        </a>
+        <!-- end of single country -->
+        <!-- single country -->
+        <a href="single-country.html" class="single-country element">
+          <div class="flag">
+            <img src="./germany.png" class="img" alt="" />
+          </div>
+          <div class="title">
+            <h4>Brazil</h4>
+            <div class="details">
+              <p><span>population:</span>81,770,900</p>
+              <p><span>region:</span>Americas</p>
+              <p><span>capital:</span>Brasilia</p>
+            </div>
+          </div>
+        </a>
+        <!-- end of single country -->
+        <!-- single country -->
+        <a href="single-country.html" class="single-country element">
+          <div class="flag">
+            <img src="./germany.png" class="img" alt="" />
+          </div>
+          <div class="title">
+            <h4>Iceland</h4>
+            <div class="details">
+              <p><span>population:</span>334,770,900</p>
+              <p><span>region:</span>Europe</p>
+              <p><span>capital:</span>Reykjavik</p>
+            </div>
+          </div>
+        </a>
+        <!-- end of single country -->
+        <!-- single country -->
+        <a href="single-country.html" class="single-country element">
+          <div class="flag">
+            <img src="./germany.png" class="img" alt="" />
+          </div>
+          <div class="title">
+            <h4>Afghanistan</h4>
+            <div class="details">
+              <p><span>population:</span>27,770,900</p>
+              <p><span>region:</span>Asia</p>
+              <p><span>capital:</span>Kabul</p>
+            </div>
+          </div>
+        </a>
+        <!-- end of single country -->
+        <!-- single country -->
+        <a href="single-country.html" class="single-country element">
+          <div class="flag">
+            <img src="./germany.png" class="img" alt="" />
+          </div>
+          <div class="title">
+            <h4>Aland Island</h4>
+            <div class="details">
+              <p><span>population:</span>81,770,900</p>
+              <p><span>region:</span>Europe</p>
+              <p><span>capital:</span>Mariehamn</p>
+            </div>
+          </div>
+        </a>
+        <!-- end of single country -->
+        <!-- single country -->
+        <a href="single-country.html" class="single-country element">
+          <div class="flag">
+            <img src="./germany.png" class="img" alt="" />
+          </div>
+          <div class="title">
+            <h4>Albania</h4>
+            <div class="details">
+              <p><span>population:</span>2,770,900</p>
+              <p><span>region:</span>Europe</p>
+              <p><span>capital:</span>Tirana</p>
+            </div>
+          </div>
+        </a>
+        <!-- end of single country -->
+        <!-- single country -->
+        <a href="single-country.html" class="single-country element">
+          <div class="flag">
+            <img src="./germany.png" class="img" alt="" />
+          </div>
+          <div class="title">
+            <h4>Algeria</h4>
+            <div class="details">
+              <p><span>population:</span>81,770,900</p>
+              <p><span>region:</span>Africa</p>
+              <p><span>capital:</span>Algiers</p>
+            </div>
+          </div>
+        </a>
+        <!-- end of single country -->
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="./Countries-rest-API/js/app.js"></script>
+    <script src=".//Countries-rest-API/js/dark-mode.js"></script>
+  </body>
+</html>

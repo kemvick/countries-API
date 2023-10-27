@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css -->
+    <link rel="stylesheet" href="./Countries-rest-API/css/styles.css" />
+    <link rel="stylesheet" href="./Countries-rest-API/css/single-country.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/431bc804af.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Countries Api</title>
+  </head>
+  <body>
+    <header class="nav">
+      <div class="logo">Where in the world?</div>
+      <div class="mode">
+        <div class="light-btn">
+          <i class="fa-regular fa-moon"></i>
+        </div>
+        <div class="dark-btn">
+          <i class="fa-solid fa-moon"></i>
+        </div>
+        <p>Dark Mode</p>
+      </div>
+    </header>
+    <main class="page">
+      <section class="single-section">
+        <a href="index.html" class="back-link">
+          <div class="back-btn element">
+            <i class="fa-solid fa-arrow-left"></i>
+            <h4>Back</h4>
+          </div>
+        </a>
+        <!-- details -->
+        <div class="details">
+          <div class="Country-flag">
+            <img src="./germany.png" class="image" />
+          </div>
+          <div class="country-details">
+            <div class="detail1">
+              <h3>Belgium</h3>
+              <p><span>native name:</span>belgia</p>
+              <p><span>population:</span>11,999,111</p>
+              <p><span>region:</span>europe</p>
+              <p><span>sub-region:</span>western europe</p>
+              <p><span>capital:</span>brussels</p>
+            </div>
+            <div class="detail2">
+              <p><span>top level domain:</span>be</p>
+              <p><span>currencies:</span>euro</p>
+              <p><span>language:</span>dutch,french,germany</p>
+            </div>
+            <div class="detail3">
+              <h3>border countries:</h3>
+              <div class="border">
+                <!-- single border -->
+                <div class="single-border element">
+                  <p>France</p>
+                </div>
+                <!-- end of item -->
+                <!-- single border -->
+                <div class="single-border element">
+                  <p>germany</p>
+                </div>
+                <!-- end of item -->
+                <!-- single border -->
+                <div class="single-border element">
+                  <p>netherland</p>
+                </div>
+                <!-- end of item -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- javascript -->
+    <script src="./Countries-rest-API/js/main.js"></script>
+    <script src="./Countries-rest-API/js/dark-mode.js"></script>
+  </body>
+</html>

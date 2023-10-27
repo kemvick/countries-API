@@ -1,0 +1,137 @@
+/* global variable */
+:root {
+  --box-shadow: 0px 1px 10px #77777749;
+  --box-shadow2: 0px 0px 10px #00000049;
+  --border-radius: 0.3rem;
+  --dark-color: #222;
+  --transition: all 0.25s ease-in-out;
+}
+.single-section {
+  padding: 0 0.99rem;
+}
+.details {
+  display: grid;
+  gap: 1.5rem 1.5rem;
+}
+.back-link {
+  display: block;
+}
+
+.back-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #222;
+  background: white;
+  box-shadow: var(--box-shadow2);
+  width: 80px;
+  padding: 0.3rem 1rem;
+  margin: 2rem 0;
+  font-size: 0.7rem;
+}
+
+.image {
+  width: 100%;
+}
+.country-details {
+  display: grid;
+  gap: 2rem 1rem;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+}
+.country-details p {
+  font-size: 0.7rem;
+}
+
+.country-details span {
+  font-weight: 700;
+  margin-right: 0.4rem;
+}
+
+.details {
+  align-items: center;
+}
+
+.detail1,
+.detail2,
+.detail3 {
+  display: grid;
+  font-size: 1rem;
+  row-gap: 0.5rem;
+}
+.detail1 h3 {
+  font-size: 1.5rem;
+}
+.detail3 h3 {
+  font-size: 1rem;
+}
+.border {
+  display: flex;
+  align-items: center;
+  column-gap: 0.55rem;
+}
+.single-border {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0.3rem 1rem;
+  box-shadow: 0px 0px 5px #00000049;
+}
+
+/* media query */
+@media screen and (min-width: 375px) {
+  .single-section {
+    padding: 0 1.5rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .detail1 h3 {
+    font-size: 1.8rem;
+  }
+  .single-section p {
+    font-size: 0.78rem;
+  }
+  .country-details {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .single-section {
+    padding: 0 5rem;
+  }
+  .details {
+    display: flex;
+    column-gap: 3.5rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+  .country-details {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 4rem 0.1rem;
+  }
+  .detail3 {
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+  }
+  .detail3 h3 {
+    font-size: 0.79rem;
+    width: 30%;
+  }
+  .border {
+    width: 0%;
+  }
+  .image {
+    height: 20rem;
+  }
+  .detail1,
+  .detail2 {
+    row-gap: 0.55rem;
+  }
+  .country-details p {
+    font-size: 0.7rem;
+  }
+}
