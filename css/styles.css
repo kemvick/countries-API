@@ -137,7 +137,7 @@ input::placeholder {
   box-shadow: var(--box-shadow2);
   padding: 1.5rem 0.7rem;
   padding-right: 8.9rem;
-  transition: all 10s ease-in-out;
+  transition: all 40s ease-in-out;
   display: none;
   z-index: 999;
   position: absolute;
